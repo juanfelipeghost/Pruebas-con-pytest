@@ -23,5 +23,13 @@ function obtenerPares(numeros) {
 
 module.exports = { obtenerPares };
 ```
+## importante
+antes de iniciar el pytest debes de cambiar un texto en **package.json**  cerca del scripts debe colocarse jest para funcionar
+ejemplo;
+```
+"scripts": {
+    "test": "jest"
+  }
+```
 ## ejecutar Pytest
 se utiliza las es siguiente comando npm test
